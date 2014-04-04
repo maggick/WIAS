@@ -225,14 +225,14 @@ if __name__ == "__main__":
             # check the domain syntax...
             res_domain = objConf.checkIPConformity(domain)
 
-            if not res_domain:
-                objConf.printMessage(
-                    "\n[*] Syntax Error with domain given : " + domain, "r", "error")
-                continue
-            else:
-                domain = res_domain
-                objConf.printMessage(
-                    "\n[*] Analyse running for url given : " + domain, "r", "find")
+            #if not res_domain:
+            #    objConf.printMessage(
+            #        "\n[*] Syntax Error with domain given : " + domain, "r", "error")
+            #    continue
+            #else:
+            #    domain = res_domain
+            #    objConf.printMessage(
+            #        "\n[*] Analyse running for url given : " + domain, "r", "find")
 
             # Init variables for each domain
             flag_form = True
